@@ -1,10 +1,29 @@
 
+* {
+    background: #836262
+}
+
 h1 {
     float: left;
-    background-color: red;
 }
 
 a {
-    float: left;
-    bottom: 0;
+    float: right;
 }
+
+main {
+    clear: both;
+}
+
+.content {
+    clear: both;
+    background: #163f36;
+}
+
+img {
+    overflow: hidden;
+}
+p {
+    float: left;
+}
+    
