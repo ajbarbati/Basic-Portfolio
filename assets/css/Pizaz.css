@@ -1,6 +1,12 @@
 
-* {
-    background: #836262
+body {
+/*     background: #836262;
+ */    padding: 0% 20% 25% 20%;
+}
+
+.top {
+    background: #a1a1a1;
+
 }
 
 h1 {
@@ -12,18 +18,20 @@ a {
 }
 
 main {
-    clear: both;
+    background: white;
+    float: left;
 }
 
 .content {
+    
+    background: #5b8d82;
     clear: both;
-    background: #163f36;
 }
 
-img {
-    overflow: hidden;
-}
-p {
-    float: left;
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
     
