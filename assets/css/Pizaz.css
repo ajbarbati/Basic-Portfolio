@@ -6,6 +6,11 @@
 
 body {
   background-image: url("../images/back_img.png");  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -22,7 +27,7 @@ header {
     background-color: #56c9b0;
     color: #ffffff;
     padding: 16.5px;
-    width: 180px;
+    width: 205px;
     left: 191px;
     position: absolute;
     
