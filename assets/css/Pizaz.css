@@ -1,83 +1,90 @@
 
 * {
-    margin: 0;
-    padding: 0;
-
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background: #836262;
-    
+  background-image: url("../images/back_img.png");  
 }
 
-.top {
+header {
+    position: fixed;
     background-color: #a1a1a1;
     width: 100%;
-    padding: 3%;
-    position: fixed;
+    height: 70px;
     top: 0%;
-    
 }
 
-h1 {
-    float: left;
-    color: #56c9b0;
-}
+
 
 .name {
     background-color: #56c9b0;
-    padding: 22px;
     color: #ffffff;
-    position: absolute;
-    top: 0;
+    padding: 16.5px;
+    width: 180px;
     left: 200px;
+    position: absolute;
+    
 }
 
 a {
-    
-    padding: 1px 13px;
-    
+    float: right;   
+    margin: 10px;
 }
 
-.A {
-    position: absolute;
-    top: 30%;
-    right: 31%;
+.about {
+    margin-right: 70px;
+    padding: 7px;
 }
 
-.P {
-    position: absolute;
-    top: 30%;
-    right: 25%;
+
+.portfolio {
+    
     border-style: solid;
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 1px;
     border-right-width: 1px;
     border-color: #919191;
+    padding: 4px 21px;
+    margin-top: 14px;
     
 }
 
-.C {
-    position: absolute;
-    top: 30%;
-    right: 19.5%;
+.contact {
+    padding: 7px;
 }
+
+
 
 main {
     background: #ffffff;
-    padding: 3%;
-    margin: 12% 15% 4% 15%;
+    padding: 20px;
+    margin: 30px;
 }
 
-.content {
-    clear: both;
-    position: relative;
+h1 {
+    
+    color: #56c9b0;
+}
 
+section {
+    
+}
+
+img {
+
+
+}
+
+.text {
+   
 }
 
 footer {
     text-align: center;
+    margin-bottom: 0%;
     color: #ffffff;
     background-color: #383838;
     position: fixed;
@@ -89,15 +96,7 @@ footer {
     border-top-width: 5px;
 }
 
-img {
-    float: left;
 
-}
-
-.text {
-    float: left;
-    overflow: hidden;
-}
 
 
     
