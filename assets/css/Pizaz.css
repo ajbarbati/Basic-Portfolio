@@ -21,8 +21,6 @@ header {
     top: 0%;
 }
 
-
-
 .name {
     background-color: #56c9b0;
     color: #ffffff;
@@ -36,6 +34,8 @@ header {
 a {
     float: right;   
     margin: 10px;
+    text-decoration: none;
+    color: #4d4d4d;
 }
 
 .about {
@@ -63,9 +63,10 @@ a {
 
 main {
     background: #ffffff;
-    padding: 0px 30px;
+    padding: 0px 30px 30px;
     margin-left: 14%;
     margin-top: 110px;
+    margin-bottom: 110px;
     width: 960px;
 }
 
@@ -85,15 +86,58 @@ section {
 }
 
 img {
-    float: left;
     margin-right: 15px;
-    
+    float: left;
+    padding: 20px;
+}
+
+.text {
+    line-height: 50px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 18 px;
+    color: #919191;
+}
+
+input {
+    float: left;
+    clear: left;
+    width: 99%;
+    margin-bottom: 10px; 
+}
+
+.submit {
+    height: 25px;
+    width: 80px;
+    padding: 5px 20px;
+    margin-bottom: initial;
+    background: #56c9b0;
+    border-style: hidden;
+    margin-top: 15px;
+    color: #fff;
+    /* font-size: 20px; */
+}
+
+textarea {
+    height: 200px;
+    width: 99%;
+    float: left;
+}
+
+.copy {
+    position: fixed;
+    bottom: 1%;
+    text-align: center;
+    right: 47%;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 footer {
-    text-align: center;
-    vertical-align: baseline;
-    color: #ffffff;
+     
+    color: #bdbdbd;
     background-color: #383838;
     position: fixed;
     bottom: 0%;
